@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia Maronmba</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="icon" type="image/x-icon" href="/Maromba/img/maromba-logo2.png">
+    <style>
+        input{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <nav >
+           <a href="index.html">
+            <img src="/Maromba/img/maromba-logo2.png" alt=""  width="60px">
+           </a>
+           
+           
+          <!--  <img a href="index.html" src=".//img/maromba-logo2.png" alt="" width="60px"  height="50px">-->
+           
+           
+           
+            <a href="#" class="logo"></a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+               </div>
+            <ul class="nav-list">   
+            <li>
+                    <a href="index.html">Home</a>
+            </li>
+            <li>
+                     <a href="localidade.html">Onde estamos</a>
+            </li>
+             <li>
+                      <a href="planos.html">Planos </a>
+            </li>
+            <li>
+                <a href="equipe.html">Profissionais</a>
+      </li>
+            <li>
+                      <a href="contato.html">contatos</a>
+            </li>
+        </ul>
+            
+        </nav>
+    </header>
+
+<section class="sobre">
+    <div class="row">
+        <div class="fotopromoção">
+            <img src="../Maromba/img/maromba-promocao.png" alt="">
+        </div>
+
+        <div class="conteudo">
+            <h1>Academia Maromba cuidando de você! </h1> 
+            <p>Venha cuidar do seu corpo e da sua mente com a gente. A academia Maromba tem os melhores profissionais e equipamentos para te ajudar. Venha nos fazer uma visita e veja como podemos te ajudar a cuidar de você! </p>
+            <p>Eu te quero bem e é por isso que a Maromba está com uma promoção exclusiva para você começar a cuidar da saúde do seu corpo e da sua mente. Venha conferir!.</p>
+        
+            <section>
+                <button class="btn">
+                    <a href="/Maromba/contato.html" target="_blanck">
+                        Cadastrar
+                    </a>
+                </button>
+            </section>
+        
+        </div>
+
+    </div>
+</section>
+
+<section class="sec_form_imc">  
+        
+    <div class="conteudo_form2_imc">
+        <h1>Calculadora de IMC </h1>
+    <form id="form_imc">
+    <div> 
+        <input type="number" placeholder="Digite sua altura em CM (ex : 1.64)" class="inputs_imc required_imc altura" id="altura">
+        <span class="span-required_imc">Nome deve ter no minimo 3 caracteres.</span>
+    </div>
+    <div> 
+        <input type="number" placeholder="Digite o seu peso em KG (ex:63kg)" class="inputs_imc required_imc peso" id="peso">
+        <span class="span-required_imc">Seu telefone deve ter no minimo 8 digitos.</span>
+    </div>
+    <p>Sexo</p>
+    <div class="box-select_imc">
+            <div>
+                <input type="radio" id="m" value="m" name="sexo">
+                <label for="m">Masculino</label>
+            </div>
+            <div>
+                <input type="radio" id="f" value="f" name="sexo">
+                <label for="f">Feminino</label>
+            </div>
+    </div>
+    <button class="btn btn_imc" type="button" onclick="calculoImc()">Calcular</button>        
+</form>
+
+</div>
+<div class="plano_ideal">
+    <h2 id="seu_imc">Descubra qual é o melhor plano para seu corpo!</h2>
+        <div class="planos_box">
+              
+                <h2 id="titulo_plano"></h2>
+                <p class="texto" id="textoplan">Preencha a calculadora da forma correta e veja seu resultado</p>    
+                
+    </div>
+</div>
+</section>   
+
+
+<div class="redes">
+   
+    <div class="sociais">
+        <div class="social">
+            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+        </div>
+
+        <div class="social">
+            <a href="#">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+        </div>
+
+        <div class="social">
+            <a href="#">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+
+        </div>
+       <div class="direitos">  
+        <p> © Todos os direitos reservados </p>
+      </div>
+
+    </div>
+</div>
+
+<script src="script/mobile-navbar.js"></script>  
+</body>
+</html>
